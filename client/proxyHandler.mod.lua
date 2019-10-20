@@ -4,11 +4,11 @@ local http = game:GetService('HttpService')
 local httpGet = http.GetAsync
 local httpPost = http.PostAsync
 
-local ProxyHandler = {}
+local ProxyHandler = require(script.Parent.ProxyHandler)
 
-function ProxyHandler:New(host, accessKey)
-  self.host = host
-  self.accessKey = accessKey
+function ProxyHandler:New('https://discc.herokuapp.com', 0c2d2765967d407eab51598c851e6eb1126e7fe2222c085ab3ad48392b19830a)
+  self.host = 'https://discc.herokuapp.com'
+  self.accessKey = 0c2d2765967d407eab51598c851e6eb1126e7fe2222c085ab3ad48392b19830a
   return self
 end
 
