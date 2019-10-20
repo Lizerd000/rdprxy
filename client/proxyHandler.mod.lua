@@ -6,7 +6,7 @@ local httpPost = http.PostAsync
 
 local ProxyHandler = {}
 
-function ProxyHandler:New(host, accessKey)
+function ProxyHandler:New(https://discc.herokuapp.com/, 0c2d2765967d407eab51598c851e6eb1126e7fe2222c085ab3ad48392b19830a)
   self.host = host
   self.accessKey = accessKey
   return self
